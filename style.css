@@ -1,0 +1,873 @@
+@import "fonts.css";
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
+  
+  background-color: rgb(255, 0, 255);
+  
+  color: black;
+  
+  font-family: times;
+  
+  font-size: 16px;
+  
+  text-align: left;
+  
+}
+
+div{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+  border: 2px outset black; 
+  
+  margin: auto; 
+  
+  position: relative; 
+  width: 550px; 
+  
+  height: 45px;
+  
+  align-self: center;
+
+}
+
+p{
+  margin-right: 25px;
+  margin-left: 25px;
+  color: black;
+
+  font-family: times;
+
+  font-size: 16px;
+
+  text-align: left;
+  
+  text-indent: 40px;
+  
+  line-height: 1.4;
+
+}
+
+top{font-size: 20px; font-family: Almendra SC;}
+
+salt{color: white; font-family: Almendra SC;}
+
+minecraft{
+
+  font-size: 28px;
+
+  color: rgb(98, 55, 9);
+
+  font-family: Bungee;
+
+}
+
+ultimate{font-size: 28px; font-family: Kaushan Script;}
+
+netflix{
+  
+  font-size: 22px;
+  
+  font-family: Titillium Web;
+  
+  background-color: black;
+  
+  color: white;
+    
+}
+
+netflixred{ @extend netflix; color: red;}
+
+rainbow{
+  
+  background-image: linear-gradient(to right, red 0%, orange 30%, yellow 40%, rgb(0, 255, 128) 50%, cyan 60%, blue 70%, rgb(139, 0, 255) 90%);
+  
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+rainbow1{
+
+  background-image: repeating-linear-gradient(to right, red 0%, orange 20%, yellow 30%, rgb(0, 255, 128) 40%, cyan 50%, blue 60%, rgb(139, 0, 255) 80%);
+
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+strength{font-family: Black Ops One; color: rgb(153,0,255);}
+
+matter{font-family: Black Ops One; color: blue;}
+
+truth{font-family: Black Ops One; color: red;}
+
+spirit{font-family: Black Ops One; color: rgb(255, 153,0);}
+
+chrono{font-family: Black Ops One; color: rgb(0, 255,0);}
+
+brain{font-family: Black Ops One; color: rgb(255, 255,0);}
+
+rating{font-size: 13px; font-family: Nosifer;}
+
+final{font-size: 20px; font-family: Nosifer;}
+
+sludge{font-weight: bold; color: rgb(19, 79, 92); font-family: Nosifer;}
+
+sludge1{font-weight: bold; font-family: Nosifer;}
+
+blackred{
+  
+  font-weight: bold;
+  
+  font-family: Nosifer;
+
+  background-image: linear-gradient(to right, black 0%, black 30%, rgb(140, 0, 0) 40%, rgb(140, 0, 0) 60%, red 100%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+
+blood{font-family: Nosifer; color: rgb(152, 0, 0);}
+
+savage{@extend blood; font-weight: bold;}
+
+brightblood{font-family: Nosifer; color: rgb(255, 0, 0);}
+
+
+epic{font-family: Nosifer; color: black;}
+
+credits{font-size: 13px; font-family: Baumans;}
+
+menu1{
+  
+  text-align: center;
+  
+  align-content: center;
+  
+  font-size: 11px;
+
+  font-family: Pacifico;
+
+}
+
+superseason{
+  
+  background-image: linear-gradient(to right, red 0%, orange 30%, yellow 40%, rgb(0, 255, 128) 50%, cyan 60%, blue 70%, rgb(139, 0, 255) 90%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 28px;
+  
+  font-family: Pacifico;
+  
+  text-decoration: underline;
+  
+  align-content: center;
+  
+}
+
+superseasonalt{
+
+  font-size: 28px;
+
+  font-family: Pacifico;
+
+  text-decoration: underline;
+
+}
+
+
+
+season{
+  
+  text-decoration: underline;
+  
+  margin-top: 10px;
+  
+  margin-right: 25px;
+  margin-left: 25px;
+  
+  font-size: 16px;
+
+  font-weight: bold;
+
+  font-family: Almendra SC;
+
+}
+
+grade{color: rgb(74, 134, 232); font-family: Cedarville Cursive;}
+
+crook{font-family: Arial Narrow;}
+
+boss{font-family: Arial Black; font-size: 18px;}
+
+time{
+  
+  font-weight: bold;
+  
+  font-style:italic;
+  
+  color: rgb(241, 194, 50);
+  
+}
+
+yeet{
+
+  font-family: Graduate;
+  
+  color: rgb(204, 204, 204);
+  
+  font-weight: bold;
+
+}
+
+pol{color: white;}
+
+yeet2{font-family: Graduate; color: rgb(204, 204, 204);}
+
+fight{font-family: Black Ops One; color: rgb(152, 0, 0);}
+
+e{font-family: Black Ops One;}
+
+black{color: black; background-color: black;}
+
+black1{font-family: Barrio; color: black; background-color: black;}
+
+mlg{
+
+  background-image: linear-gradient(to right, red 0%, blue 10%, white 30%, white 80%, blue 90%, red 100%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+shrek{
+
+  font-family: Boogaloo;
+  
+  background-image: linear-gradient(to right, rgb(0, 255, 0) 0%, rgb(95, 167, 97) 20%, rgb(56, 118, 29) 40%, rgb(56, 118, 29) 70%, rgb(95, 167, 97) 80%, rgb(0, 255, 0) 100%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+sun{
+
+  font-family: Bungee;
+
+  background-image: repeating-linear-gradient(to right, rgb(241, 194, 50) 0% , rgb(255, 255, 0) 15%, rgb(241, 194, 50) 20% );
+  
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+gold{
+
+  font-family: Bungee;
+
+  color: rgb(241, 194, 50);
+
+}
+
+evil{
+
+  font-family: Boogaloo;
+
+  background-image: repeating-linear-gradient(to right, rgb(0, 255, 0) 0%, rgb(56, 118, 29) 20%, rgb(0, 255, 0) 40%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  
+  font-weight: bold;
+
+}
+
+fire{
+
+  font-family: Graduate;
+
+  background-image: linear-gradient(to right, red 0%, rgb(255, 153, 0) 30%, rgb(255, 255, 0) 50%, rgb(255, 255, 0) 60%, rgb(255, 153, 0) 70%, red 100%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+bobspeech{font-size: 12px; font-family: Rock Salt;}
+
+bacon{font-family: Rock Salt; color: rgb(204, 0, 0);}
+
+rocket{color: red; font-family: Ultra;}
+
+fire1{
+
+  font-family: Rock Salt;
+
+  background-image: linear-gradient(to right, red 0%, rgb(255, 153, 0) 30%, rgb(255, 255, 0) 50%, rgb(255, 255, 0) 60%, rgb(255, 153, 0) 70%, red 100%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+amigo{font-family: Boogaloo; color: rgb(0, 255, 128);}
+
+ender{font-family: Chelsea Market;}
+
+ender1{font-family: Baloo; color: rgb(19, 79, 92);}
+
+glorious{text-decoration: underline; font-family: Baloo; font-style: italic; color: rgb(0, 255, 255);}
+
+sword{font-family: Chelsea Market; color: white;}
+
+small{font-size: 10px;}
+
+witch{
+
+  font-family: Barrio;
+  
+  background-image: repeating-linear-gradient(to right, rgb(39, 78, 19) 0% , black 15%, rgb(39, 78, 19) 20% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  
+  -webkit-text-fill-color: transparent;
+  
+}
+
+real{
+
+  background-image: repeating-linear-gradient(to right, rgb(0, 255, 0) 0% , rgb(74, 134, 232) 15%, blue 30%, rgb(0, 255, 0) 45% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+thanos{
+
+  font-family: Black Ops One;
+
+  background-image: repeating-linear-gradient(to right, rgb(153, 0, 255) 0% , rgb(191, 144, 0) 7%, rgb(153, 0, 255) 15% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+thanos1{
+
+  font-family: Black Ops One;
+
+  background-image: repeating-linear-gradient(to right, rgb(106, 168, 79) 0% , rgb(191, 144, 0) 7%, rgb(106, 168, 79) 15% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+nc{font-family: Carter One; color: rgb(180, 95, 6);}
+
+cackle{color: rgb(0, 255, 0); font-family: Rock Salt;}
+
+thanos2{
+
+  font-family: Carter One;
+
+  background-image: repeating-linear-gradient(to right, red 0% , red 20% , rgb(191, 144, 0) 30%, rgb(191, 144, 0) 45%, red 50% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+jamesspeech{
+  
+  font-family: Ultra; 
+  
+  background-color: rgb(106, 168, 79); 
+  
+  color: rgb(191, 144, 0);}
+
+alienspeech{font-family: Baloo; color: rgb(0, 255, 0);}
+
+infinity{
+
+  font-family: Black Ops One;
+
+  color: rgb(191, 144, 0);
+
+  font-weight: bold;
+
+}
+
+wizard{
+
+  font-family: Barrio;
+
+  background-image: repeating-linear-gradient(to right, white 0% , rgb(255, 255, 0) 0%, white 20% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+wizard1{
+
+  font-family: Barrio;
+
+  background-image: repeating-linear-gradient(to right, rgb(255, 255, 0) 0% , white 0%, rgb(255, 255, 0) 20% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+notch{color: rgb(116, 27, 71);}
+
+redstone{font-family: Caesar Dressing; color: rgb(152, 0, 0);}
+
+redstonespeech{
+  
+  font-family: Caesar Dressing; 
+  
+  color: red;
+
+  background-color: rgb(255, 153, 0)}
+
+spasm{font-family: Caesar Dressing;}
+
+magma{font-family: Caesar Dressing; color: rgb(255, 191, 0);}
+
+rosaline{font-family: Chelsea Market; color: rgb(191, 144, 0);}
+
+dbz{
+  
+  font-family: Hanalei Fill;
+  
+  color: rgb(255, 153, 0);
+  
+  background-color: black;
+}
+
+blue{font-family: Audiowide; color: rgb(0, 0, 255);}
+
+teleport{font-family: Audiowide; color: rgb(0, 255, 0);}
+
+portal{font-family: Audiowide; color: red;}
+
+cat{font-family: Sriracha;}
+
+ree{font-family: Sriracha; color: rgb(204, 0, 0); font-weight: bold;}
+
+crate{font-family: Sriracha; color: rgb(241, 194, 50); font-weight: bold;}
+
+windows{font-family: Atomic Age; color: rgb(0, 255, 255);}
+
+light{font-family: Atomic Age; color: rgb(241, 194, 50);}
+
+yeet1{font-family: Atomic Age; color: red;}
+
+ghost{
+
+  font-family: Creepster;
+  
+  color: white;
+
+  background-color: black;
+}
+
+rip{font-family: Creepster;}
+
+infernal{font-family: Creepster; color: rgb(153,0,0);}
+
+tentacle{font-family: Creepster; color: rgb(153,153,153);}
+
+ko{font-family: Special Elite;}
+
+cy{font-family: Special Elite; color: rgb(102, 102, 102);}
+
+cy1{font-family: Black Ops One; color: rgb(183, 183, 183);}
+
+bobb{font-family: Special Elite; color: rgb(0, 255, 255);}
+
+lava1{font-family: Special Elite; color: red;}
+
+lava2{font-family: Special Elite; color: red; font-weight: bold;}
+
+ree1{font-family: UnifrakturMaguntia;}
+
+fortnite{font-family: UnifrakturMaguntia; color: blue;}
+
+ree2{font-family: Black And White Picture; color: red;}
+
+power{font-family: Bungee Shade; color: white; }
+
+bred{font-family: Bungee Shade; color: red; }
+
+by{font-family: Bungee Shade; color: rgb(255, 255, 0); }
+
+bb{font-family: Bungee Shade; color: blue; }
+
+
+blackp{font-family: Bungee Shade; background-color: black; color: black; }
+
+ufo1{font-family: Geostar; color: rgb(0, 255, 0);}
+
+sy{font-family: Geostar; color: rgb(204, 204, 204);}
+
+sonnet{font-family: Calligraffitti; color: rgb(255, 216, 153);}
+
+alien{font-family: Black And White Picture; color: rgb(95, 167, 97);}
+
+ufo{color: rgb(0, 255, 0);}
+
+far{
+  
+  font-family: Black And White Picture; 
+  
+  color: white;
+  
+  background-color: black;
+
+  font-weight: bold;
+
+  letter-spacing: 0.5em;}
+
+devastation{font-family: Black And White Picture; color: rgb(102, 102, 102);}
+
+tingle{font-family: Black And White Picture; color: rgb(74, 134, 232);}
+
+glow{font-family: Bungee Outline; color: rgb(0, 255, 0);}
+
+k{font-family: Bungee; color: rgb(255, 0, 0);}
+
+green{font-family: Bungee; color: rgb(0, 255, 0);}
+
+x{font-family: Bungee; color: black; font-weight: bold;}
+
+miss{font-family: Kirang Haerang;}
+
+dragon{font-family: Lobster;}
+
+blast{font-family: Monoton; color: rgb(230, 145, 56);}
+
+blast1{font-family: Bungee; color: rgb(152, 0, 0);}
+
+blast2{font-family: Bungee; color: red;}
+
+blast3{font-family: Rock Salt; color: red; background-color: rgb(255, 153, 0);}
+
+wither{font-family: Monoton}
+
+
+red{color: red; font-weight: bold;}
+
+red1{color: red;}
+
+family{font-family: Almendra Display; color: rgb(57, 8, 77);}
+
+iq{font-family: Architects Daughter; color: rgb(255, 255, 0);}
+
+grand{font-family: Architects Daughter; text-decoration: underline;}
+
+shade{font-family: Anonymous Pro; font-weight: bold;}
+
+villa{font-family: Astloch; color: rgb(127, 96, 0);}
+
+protector{
+  
+  background-image: repeating-linear-gradient(to right, blue 0% , white 10%, blue 20%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+hate{
+
+  background-image: repeating-linear-gradient(to right, red 0% , black 20%, red 40%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  
+  font-family: Creepster;
+
+}
+
+sans{
+
+  background-image: repeating-linear-gradient(to right, black 0% , blue 10%, black 20%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  font-family: Comic Sans MS;
+
+}
+
+sky{font-family: Spicy Rice; color: white; background: rgb(11, 168, 220);}
+
+past{font-family: Algerian;}
+
+magic{font-family: Algerian; color: rgb(153, 0, 255)}
+
+ground{font-family: Slackey; color: rgb(56, 118, 29);}
+
+well{font-family: Slackey; color: rgb(255, 153, 0);}
+
+queasy{font-family: Slackey; color: rgb(0, 255, 0);}
+
+sinister{font-family: Chewy; color: rgb(255, 217, 102);}
+
+biscuit{font-family: Chewy; font-weight: bold;}
+
+cookie{
+  
+  font-family: Bungee Shade;
+
+  background-image: repeating-linear-gradient(to right, red 0%, orange 18%, yellow 27%, rgb(0, 255, 128) 36%, cyan 45%, blue 54%, rgb(139, 0, 255) 72%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+lava{font-family: Eagle Lake; color: rgb(255, 127, 0);}
+
+diamond{font-family: Eagle Lake; color: rgb(0, 255, 255); text-decoration: underline;}
+
+acid{font-family: Bonbon; color: rgb(95, 167, 97);}
+
+mystery{
+
+  font-family: Astloch;
+
+  background-image: repeating-linear-gradient(to right, blue 0% , rgb(0, 255, 0) 15%, blue 20% );
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  
+  font-weight: bold;
+
+}
+
+mystery1{font-family: Luckiest Guy; color: blue;}
+
+fbi{font-family: Luckiest Guy; font-weight: bold;}
+
+fbi1{font-family: Luckiest Guy; font-weight: bold; font-size: 20px;}
+
+police{
+
+  font-family: Luckiest Guy;
+
+  background-image: repeating-linear-gradient(to right, red 0% , red 5% ,white 10%, blue 15% , blue 20%,white 25%, red 30%);
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+goggle{font-family: Oswald; color: rgb(61, 133, 198);}
+
+bedrock{font-family: Impact;}
+
+dust{color: rgb(180, 95, 6);}
+
+money{color: rgb(56, 118, 29);}
+
+space{font-family: Orbitron; font-weight: bold; letter-spacing: 0.8em;}
+
+s1{
+  
+  font-family: Ultra; 
+
+  background-color: rgb(106, 168, 79); 
+
+  color: rgb(191, 144, 0);
+  
+  font-size: 14px;
+  
+}
+
+s2{
+
+  font-family: Ultra; 
+
+  background-color: rgb(106, 168, 79); 
+
+  color: rgb(191, 144, 0);
+
+  font-size: 13px;
+
+}
+
+s3{
+
+  font-family: Ultra; 
+
+  background-color: rgb(106, 168, 79); 
+
+  color: rgb(191, 144, 0);
+
+  font-size: 12px;
+
+}
+
+s4{
+
+  font-family: Ultra; 
+
+  background-color: rgb(106, 168, 79); 
+
+  color: rgb(191, 144, 0);
+
+  font-size: 11px;
+
+}
+
+s5{
+
+  font-family: Ultra; 
+
+  background-color: rgb(106, 168, 79); 
+
+  color: rgb(191, 144, 0);
+
+  font-size: 10px;
+
+}
+
+scream{font-family: Shadows Into Light; color: white; font-weight: bold;}
+
+fat{font-family: Sigmar One; font-weight: bold;}
+
+o1{
+  
+  font-family: Sigmar One; 
+  
+  background-color: rgb(0, 255, 0);
+
+  color: rgb(153, 0, 255);}
+
+o2{
+
+  font-family: Sigmar One; 
+
+  color: rgb(0, 255, 0);
+
+  background-color: rgb(153, 0, 255);}
+
+exquisite{font-family: Nothing You Could Do; font-weight: bold;}
+
+load{font-family: 'Press Start 2P';}
+
+arm{font-family: Black Ops One; color: rgb(153, 153, 153);}
+
+armor{font-family: Fugaz One; color: red;}
+
+glove{font-family: Righteous; color: rgb(191, 144, 0);}
+
+hello{font-family: Permanent Marker; color: rgb(91, 15, 0);}
+
+slice{font-family: Anton; font-weight: bold; text-decoration: underline;}
+
+bam{font-family: Anton; font-weight: bold; font-size: 20px;}
+
+mg1{font-family: Anton; color: white;}
+
+mg2{font-family: Anton; color: red;}
+
+costco{font-style: italic; color: red; background-color: white; font-weight: bold;}
+
+code{color: white; font-family: Bangers;}
+
+ny{color: rgb(183, 183, 183); font-family: Bangers;}
